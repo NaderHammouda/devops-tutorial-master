@@ -1,4 +1,4 @@
-node {
+anode {
     def app
 
     stage('Clone repository') {
@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("edureka1/edureka")
+        app = docker.build("NaderHammouda/Devops")
     }
 
     stage('Test image') {
