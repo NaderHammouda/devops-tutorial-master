@@ -11,7 +11,7 @@ anode {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("NaderHammouda/Devops")
+        app = docker.build("hectordockerin/hector")
     }
 
     stage('Test image') {
